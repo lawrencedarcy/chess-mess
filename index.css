@@ -30,6 +30,15 @@ body {
 
 .subhead {
   
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: flex-end;
+  font-family: Oswald;
+  font-size: 1.1rem;
+  padding: .5rem;
+  margin-bottom: 1.2rem;
+  margin-top: -.3rem;
   
 }
 
@@ -40,28 +49,30 @@ body {
   and (-webkit-min-device-pixel-ratio: 2) {
 
     .logo {
-      font-size: 3.5rem;
+      font-size: 3.8rem;
       margin: 1rem;
       padding: .5rem;
-      max-width: 280px !important;
+      max-width: 320px;
     } 
+
+    .subhead {
+      max-width: 320px;
+    }
 
     .sender-subs-embed-form-4052 .sender-form-box{
      max-width: 280px !important;
      
     }
+
+    .subhead {
+      padding: .1rem;
+      margin-top: -1rem;
+      text-align: center;
+      font-size: 0.8rem;
+    }
 }
 
 .scroll-left {
-  background-color: white;
-  color: black;
-  display: flex;
-  justify-content: flex-end;
-  font-family: Oswald;
-  font-size: 1.1rem;
-  padding: .5rem;
-  margin-bottom: 1.2rem;
-  margin-top: -.3rem;
 }
 
 
