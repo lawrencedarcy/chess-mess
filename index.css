@@ -1,0 +1,79 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+body {
+  background-image: url("https://uploads.guim.co.uk/2020/12/16/chess-small.jpg");
+  background-size: cover;
+  background-position: center center; 
+ }
+
+.logo {
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  font-family: Oswald;
+  font-size: 6rem;
+  background-color: red;
+  color: white;
+  text-transform: uppercase;
+  padding: 0rem 1rem;
+  margin: 2rem 2rem 0rem 2rem;
+}
+
+.subhead {
+  
+  
+}
+
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .logo {
+      font-size: 3.5rem;
+      margin: 1rem;
+      padding: .5rem;
+      max-width: 280px !important;
+    } 
+
+    .sender-subs-embed-form-4052 .sender-form-box{
+     max-width: 280px !important;
+     
+    }
+}
+
+.scroll-left {
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: flex-end;
+  font-family: Oswald;
+  font-size: 1.1rem;
+  padding: .5rem;
+  margin-bottom: 1.2rem;
+  margin-top: -.3rem;
+}
+
+
+/* .sender-form-input-4052 {
+      width: 50vw;
+}
+
+.sender-subs-embeded-form {
+  width: 70vw;
+}
+
+.sender-subs-embed-form-4052, .sender-form-box {
+  width: 70vw;
+}
+ */
