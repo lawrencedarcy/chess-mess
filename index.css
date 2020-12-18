@@ -1,4 +1,8 @@
 
+:root {
+  --main-red: rgb(233, 2, 2);
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -21,14 +25,14 @@ body {
   align-items: center;
   font-family: Oswald;
   font-size: 6rem;
-  background-color: red;
+  background-color: var(--main-red);
   color: white;
   text-transform: uppercase;
   padding: 0rem 1rem;
   margin: 2rem 2rem 0rem 2rem;
 }
 
-.subhead {
+.subhead, h1 {
   
   background-color: white;
   color: black;
@@ -42,9 +46,14 @@ body {
   
 }
 
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
 
 @media only screen 
-  and (min-device-width: 320px) 
+  and (min-device-width: 300px) 
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
 
@@ -60,7 +69,7 @@ body {
     }
 
     .sender-subs-embed-form-4052 .sender-form-box{
-     max-width: 280px !important;
+     max-width: 290px !important;
      
     }
 
